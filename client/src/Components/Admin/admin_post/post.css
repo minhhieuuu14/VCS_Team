@@ -1,0 +1,64 @@
+/* post.css */
+
+.table-container {
+  margin-top: 20px;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.user-table th,
+.user-table td {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 auto;
+}
+/* CSS cho form nhập nội dung vi phạm */
+.violation-form {
+  display: none; /* Ẩn form ban đầu */
+}
+.duyet-post {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+/* CSS khi hiển thị form */
+.show-form {
+  display: block; /* Hiển thị form khi được áp dụng */
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+}
+
+.user-table tr:hover {
+  background-color: #ccc;
+}
+
+.user-table button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-table button:hover {
+  background-color: #0056b3;
+}
+.detail-link {
+  font-size: 30px;
+}
